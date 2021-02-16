@@ -93,6 +93,26 @@
  margin: 5vh 5vw;
 }
 
+.app-card-container{
+    border-radius: 1rem;
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+    margin: 2vw 10vw;
+    position: absolute;
+    display: flex;
+}
 
+.app-body
+{
+
+    width: 56vw;
+}
+
+.filters-body{
+    width: 24vw;
+    border-radius: 1rem;
+    background-color: #0071FF;
+}
 
 
