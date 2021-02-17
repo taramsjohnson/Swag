@@ -12,7 +12,7 @@
 .card-container{
     border-radius: 1rem;
     width: 80vw;
-    height: 100vh;
+    height: 90vh;
     background-color: white;
     margin: 2vw 10vw;
     position: absolute;
@@ -54,8 +54,9 @@
 .info-container{
     position: absolute;
     width: inherit;
-    height: 100vh;
+    height: 80.5vh; /* not sure why i needed this 0.5....*/
     background-color: #0071FF;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .content-box{
@@ -96,7 +97,7 @@
 .app-card-container{
     border-radius: 1rem;
     width: 80vw;
-    height: 100vh;
+    height: 90vh;
     background-color: white;
     margin: 2vw 10vw;
     position: absolute;
@@ -105,8 +106,7 @@
 
 .app-body
 {
-
-    width: 56vw;
+    width: 42vw;
 }
 
 .filters-body{
@@ -115,4 +115,75 @@
     background-color: #0071FF;
 }
 
+.home-column{
+    width: 14vw;
+    display: flex;
+}
+
+.search-bar-container{
+    margin: 2vh 1vw;
+}
+
+.search-bar{
+    width: 36vw;
+    height: 4vh;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.below-search-bar{
+ 
+    margin: 0 1vw ;
+    width: 36vw ;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-frame{
+    background-color: grey;
+    width: 16vw;
+    height: 20vh;
+    border-radius: 1rem;
+}
+.text-cont{
+    width: 36vw;
+    height: 6vh;
+}
+
+.text-cont > h1{
+    color: #0071FF;
+}
+
+.brand-container{
+    margin: 0 1vw ;
+    width: 36vw ;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-frame-small{
+    background-color: grey;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 1rem;
+}
+
+.filter-text-cont{
+    width: inherit;
+    padding: 2vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.filter-button-cont{
+    width: 20w;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
 
